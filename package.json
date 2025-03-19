@@ -1,0 +1,21 @@
+{
+  "name": "robowash",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --ignore '*.json' app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-storage": "^0.0.9",
+    "pg": "^8.14.0",
+    "telegraf": "^4.16.3"
+  }
+}
